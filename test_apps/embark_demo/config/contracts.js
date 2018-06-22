@@ -21,6 +21,8 @@ module.exports = {
     contracts: {
       "SimpleStorage": {
         "deploy": false
+        //"deploy": true,
+        //"args": [100]
       }
     }
   }

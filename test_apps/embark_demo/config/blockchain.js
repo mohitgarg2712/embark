@@ -1,5 +1,5 @@
 module.exports = {
-  development: {
+  testnet: {
     enabled: false,
     networkType: "custom", // Can be: testnet, rinkeby, livenet or custom, in which case, it will use the specified networkId
     networkId: "1337", // Network id used when networkType is custom
@@ -27,17 +27,17 @@ module.exports = {
     simulatorMnemonic: "example exile argue silk regular smile grass bomb merge arm assist farm", // Mnemonic  used by the simulator to generate a wallet
     simulatorBlocktime: 0 // Specify blockTime in seconds for automatic mining. Default is 0 and no auto-mining.
   },
-  testnet: {
-    enabled: false,
-    networkType: "testnet",
-    light: true,
-    rpcHost: "localhost",
-    rpcPort: 8545,
-    rpcCorsDomain: "http://localhost:8000",
-    account: {
-      password: "config/testnet/password"
-    }
-  },
+  //testnet: {
+  //  enabled: false,
+  //  networkType: "testnet",
+  //  light: true,
+  //  rpcHost: "localhost",
+  //  rpcPort: 8545,
+  //  rpcCorsDomain: "http://localhost:8000",
+  //  account: {
+  //    password: "config/testnet/password"
+  //  }
+  //},
   livenet: {
     enabled: false,
     networkType: "livenet",
